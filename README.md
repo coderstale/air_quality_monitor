@@ -37,9 +37,9 @@ The `.keras` model (`aqi_dual_model_final.keras`) is a dual-output neural networ
 
 ## 🧩 Project Structure
 air_quality_monitor/
-├── aqi_dual_model_final.keras   # Trained Keras model
-├── air_quality_monitor.ino      # Arduino code for sensor & LCD
-├── app.py                       # Python app for ML prediction + serial comm
+>├── aqi_dual_model_final.keras   # Trained Keras model
+>├── air_quality_monitor.ino      # Arduino code for sensor & LCD
+>├── app.py                       # Python app for ML prediction + serial comm
 
 > Note: Model files like `scaler.pkl` and `label_encoder.pkl` were used during training but are excluded from this upload.
 
@@ -58,15 +58,15 @@ air_quality_monitor/
 
 🤖 Arduino Side
 
-	1.	Flash air_quality_monitor.ino to your Arduino using the Arduino IDE
-	2.	Connect your sensors to analog pins A1 and A2
-	3.	Ensure I2C LCD is properly wired
+>	1.	Flash air_quality_monitor.ino to your Arduino using the Arduino IDE
+>	2.	Connect your sensors to analog pins A1 and A2
+>	3.	Ensure I2C LCD is properly wired
 
 ⸻
 
 🔌 Communication Protocol
-	•	Arduino ➡ Python: DATA:<pm25>,<aqi>
-	•	Python ➡ Arduino: BUCKET:<category>
+>	•	Arduino ➡ Python: DATA:<pm25>,<aqi>
+>	•	Python ➡ Arduino: BUCKET:<category>
 
 ⸻
 
@@ -80,10 +80,9 @@ Mediafire Model Files
 ⸻
 
 🧠 Future Improvements
-
-	•	Convert Keras model to .tflite for onboard inference (TinyML)
-	•	Add mobile alert integration (e.g., via Bluetooth or SMS)
-	•	Use cloud API for continuous data logging and dashboard
+>	•	Convert Keras model to .tflite for onboard inference (TinyML)
+>	•	Add mobile alert integration (e.g., via Bluetooth or SMS)
+>	•	Use cloud API for continuous data logging and dashboard
 
 ⸻
 
