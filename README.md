@@ -37,10 +37,9 @@ The `.keras` model (`aqi_dual_model_final.keras`) is a dual-output neural networ
 
 ## 🧩 Project Structure
 air_quality_monitor/
+
 ├── aqi_dual_model_final.keras   # Trained Keras model
-
 ├── air_quality_monitor.ino      # Arduino code for sensor & LCD
-
 ├── app.py                 # Python app for ML prediction + serial comm
 
 
