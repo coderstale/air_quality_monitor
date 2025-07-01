@@ -57,6 +57,7 @@ air_quality_monitor/
 ```python app.py```
 
 🤖 Arduino Side
+
 	1.	Flash air_quality_monitor.ino to your Arduino using the Arduino IDE
 	2.	Connect your sensors to analog pins A1 and A2
 	3.	Ensure I2C LCD is properly wired
@@ -79,6 +80,7 @@ Mediafire Model Files
 ⸻
 
 🧠 Future Improvements
+
 	•	Convert Keras model to .tflite for onboard inference (TinyML)
 	•	Add mobile alert integration (e.g., via Bluetooth or SMS)
 	•	Use cloud API for continuous data logging and dashboard
